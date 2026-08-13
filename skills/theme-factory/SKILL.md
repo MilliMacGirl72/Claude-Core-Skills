@@ -5,6 +5,10 @@ license: Apache 2.0
 compatibility: vibe
 user-invocable: true
 allowed-tools: ["*"]
+metadata:
+  display-name: Theme Factory
+  short-description: Apply professional color and font themes to any artifact
+  default-prompt: Help me apply a theme to my slides or document
 ---
 
 
