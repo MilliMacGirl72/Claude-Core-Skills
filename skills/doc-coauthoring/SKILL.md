@@ -1,7 +1,16 @@
 ---
 name: doc-coauthoring
 description: Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.
+license: Complete terms in LICENSE.txt
+compatibility: vibe
+user-invocable: true
+allowed-tools: ["*"]
+metadata:
+  display-name: Doc Coauthoring
+  short-description: Collaboratively create structured documentation
+  default-prompt: Help me write a document or proposal
 ---
+
 
 # Doc Co-Authoring Workflow
 
@@ -77,7 +86,7 @@ Inform them clarifying questions will be asked once they've done their initial d
 
 - If user mentions team channels or shared documents:
   - If integrations available: Inform them the content will be read now, then use the appropriate integration
-  - If integrations not available: Explain lack of access. Suggest they enable connectors in Claude settings, or paste the relevant content directly.
+  - If integrations not available: Explain lack of access. Suggest they enable connectors in Claude settings, or paste the relevant content directly
 
 - If user mentions entities/projects that are unknown:
   - Ask if connected tools should be searched to learn more
@@ -268,7 +277,7 @@ Summarize what Reader Claude got right/wrong for each question.
 
 ### Step 3: Run Additional Checks
 
-Announce additional checks will be performed.
+Announce that additional checks will be performed.
 
 Invoke sub-agent to check for ambiguity, false assumptions, contradictions.
 
