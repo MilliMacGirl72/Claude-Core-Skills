@@ -2,7 +2,15 @@
 name: frontend-design
 description: Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.
 license: Complete terms in LICENSE.txt
+compatibility: vibe
+user-invocable: true
+allowed-tools: ["*"]
+metadata:
+  display-name: Frontend Design
+  short-description: Create distinctive, intentional visual designs for UI
+  default-prompt: Help me design a UI for my project
 ---
+
 
 # Frontend Design
 
