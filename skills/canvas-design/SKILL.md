@@ -2,7 +2,15 @@
 name: canvas-design
 description: Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.
 license: Complete terms in LICENSE.txt
+compatibility: vibe
+user-invocable: true
+allowed-tools: ["*"]
+metadata:
+  display-name: Canvas Design
+  short-description: Create beautiful visual art and design philosophies
+  default-prompt: Help me create a visual design or art piece
 ---
+
 
 These are instructions for creating design philosophies - aesthetic movements that are then EXPRESSED VISUALLY. Output only .md files, .pdf files, and .png files.
 
@@ -46,7 +54,7 @@ To capture the VISUAL essence, express how the philosophy manifests through:
 **CRITICAL GUIDELINES:**
 - **Avoid redundancy**: Each design aspect should be mentioned once. Avoid repeating points about color theory, spatial relationships, or typographic principles unless adding new depth.
 - **Emphasize craftsmanship REPEATEDLY**: The philosophy MUST stress multiple times that the final work should appear as though it took countless hours to create, was labored over with care, and comes from someone at the absolute top of their field. This framing is essential - repeat phrases like "meticulously crafted," "the product of deep expertise," "painstaking attention," "master-level execution."
-- **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftmanship.
+- **Leave creative space**: Remain specific about the aesthetic direction, but concise enough that the next Claude has room to make interpretive choices also at a extremely high level of craftsmanship.
 
 The philosophy must guide the next version to express ideas VISUALLY, not through text. Information lives in design, not paragraphs.
 
